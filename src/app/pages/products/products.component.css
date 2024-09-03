@@ -1,0 +1,23 @@
+.products-container {
+  padding: 40px;
+}
+
+.products-container h1 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.products-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products-container ul li {
+  padding: 10px 0;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.products-container ul li:last-child {
+  border-bottom: none;
+}

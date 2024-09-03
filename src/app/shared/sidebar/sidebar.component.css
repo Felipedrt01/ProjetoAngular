@@ -1,0 +1,31 @@
+aside {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+aside ul li a.active {
+  color: #2e7d32;
+  border-left: 4px solid #4CAF50;
+  padding-left: 8px;
+}
+
+aside ul li a:hover {
+  color: #2e7d32;
+}

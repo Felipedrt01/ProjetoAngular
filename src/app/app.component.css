@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  min-height: 80vh;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+app-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
